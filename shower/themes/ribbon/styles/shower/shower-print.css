@@ -1,8 +1,8 @@
-/* Print */
+/* Shower Print */
 
 @page {
     margin: 0;
-    size: var(--slide-width) var(--slide-height);
+    size: 1024px 576px;
 }
 
 .shower {

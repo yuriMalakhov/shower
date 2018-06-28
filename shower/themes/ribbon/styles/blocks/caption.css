@@ -41,14 +41,23 @@
     text-shadow: 0 -1px 0 #1f3f60;
 }
 
-/* Caption List */
+/* List */
 
 .shower.list .caption {
     display: block;
 }
 
-/* Caption Full */
+/* Full */
 
 .shower.full .caption {
     display: none;
+}
+
+/* Print */
+
+@media print {
+    .shower.list .caption,
+    .shower.full .caption {
+        display: none;
+    }
 }
